@@ -24,6 +24,7 @@ We utilize OpenMP, a popular API for parallel programming, to parallelize these 
 ![Picture2](https://github.com/shalini121906/Parallelizing-GeneticAlgo/assets/116372155/97f321a3-5e40-4378-8005-1613cd037031)
 
 - **Population Initialization:** As the problem size increases, the parallelization of population initialization leads to significant speedup, especially when utilizing multiple processing units. However, the speedup tends to plateau as the number of processing units increases beyond a certain point.
+
 ![Picture3](https://github.com/shalini121906/Parallelizing-GeneticAlgo/assets/116372155/b1fee9ff-07a1-4093-9cf4-947af275a991)
 
 ![Picture4](https://github.com/shalini121906/Parallelizing-GeneticAlgo/assets/116372155/2d509cee-96b6-4549-8409-f8d3e8fdcfba)
@@ -35,6 +36,7 @@ We utilize OpenMP, a popular API for parallel programming, to parallelize these 
 
 ![Picture6](https://github.com/shalini121906/Parallelizing-GeneticAlgo/assets/116372155/08e9389d-bd81-4471-ab64-e1acc9c7a7ab)
 
+
 - **Crossover and Mutation:** Parallelizing crossover and mutation operations yields moderate speedup, with variations based on the problem size and the number of processing units. These operations may not exhibit as significant speedup as population initialization and fitness calculation, but they still contribute to overall performance improvement.
 
 
@@ -45,6 +47,7 @@ We utilize OpenMP, a popular API for parallel programming, to parallelize these 
 **Parallel efficiency Inferences:**
 
 ![Picture7](https://github.com/shalini121906/Parallelizing-GeneticAlgo/assets/116372155/87a2aacc-397c-4b3c-b218-b58dd3ce072d)
+
 
 **Population Initialization:**
 
